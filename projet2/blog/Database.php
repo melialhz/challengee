@@ -1,10 +1,10 @@
 <?php
 
 class Database {
-    private $host = 'localhost';
+    private $host = '127.0.0.1';
     private $db = 'blog';
     private $user = 'root';
-    private $pass = 'password';
+    private $pass = 'root';
     private $charset = 'utf8mb4';
 
     public $pdo = null;
